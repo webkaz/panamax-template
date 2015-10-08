@@ -1,0 +1,10 @@
+---
+name: ne-proxy
+description: ''
+keywords: ''
+type: Default
+documentation: ''
+images:
+- name: jwilder_nginx-proxy_latest
+  source: jwilder/nginx-proxy:latest
+  type: Default
