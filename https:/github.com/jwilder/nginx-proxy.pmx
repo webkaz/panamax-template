@@ -1,0 +1,11 @@
+---
+name: https://github.com/jwilder/nginx-proxy
+description: ''
+keywords: ''
+type: Default
+documentation: ''
+images:
+- name: jwilder_nginx-proxy_latest
+  source: jwilder/nginx-proxy:latest
+  type: Default
+  command: "-d -p 80:80 -v /var/run/docker.sock:/tmp/docker.sock:ro jwilder/nginx-proxy"
